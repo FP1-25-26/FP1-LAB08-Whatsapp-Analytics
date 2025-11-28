@@ -133,7 +133,7 @@ Ten en cuenta que:
 
 ## 📌 Ejercicio 6: Función `analiza_palabras_caracteristicas`
 
-Implementa la función `analiza_palabras_frecuentes`. Esta función genera los datos para construir una "nube de palabras" que visualizará las palabras más características de un usuario. No queremos simplemente las palabras más usadas, sino las palabras que **distinguen** a un usuario del resto.
+Implementa la función `analiza_palabras_caracteristicas`. Esta función genera los datos para construir una "nube de palabras" que visualizará las palabras más características de un usuario. No queremos simplemente las palabras más usadas, sino las palabras que **distinguen** a un usuario del resto.
 
 La función recibe la lista de mensajes, un `usuario` objetivo y un número `n`. Debe devolver una lista de tuplas `(palabra, recuento)` con las `n` palabras más características y sus recuentos.
 
@@ -154,3 +154,4 @@ La función recibe la lista de mensajes, un `usuario` objetivo y un número `n`.
 ---
 
 Una vez implementadas todas las funciones, puedes probar la aplicación ejecutando `whatsapp_gui.py` y cargando tu propio archivo de log.
+
