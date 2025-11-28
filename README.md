@@ -23,6 +23,12 @@ Sin embargo, **para que estas visualizaciones funcionen, es necesario implementa
 
 👉 Para configurar Git y clonar el repositorio del laboratorio, consulta **[instrucciones_git.md](https://github.com/FP1-25-26/instrucciones_git.md)**.
 
+**Para poder ejecutar la interfaz gráfica y visualizar las nubes de palabras, es necesario instalar `wordcloud`**. Ejecuta el siguiente comando desde el terminal:
+
+```
+pip install wordcloud
+```
+
 ---
 
 ## ⏱ Duración estimada
@@ -154,4 +160,5 @@ La función recibe la lista de mensajes, un `usuario` objetivo y un número `n`.
 ---
 
 Una vez implementadas todas las funciones, puedes probar la aplicación ejecutando `whatsapp_gui.py` y cargando tu propio archivo de log.
+
 
